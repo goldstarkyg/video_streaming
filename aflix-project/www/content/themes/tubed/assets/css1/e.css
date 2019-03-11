@@ -1,0 +1,112 @@
+.AuthorizeNetSeal{position:absolute;bottom:5px;right:5px}
+.PaypalSeal{position:absolute;bottom:5px;right:100px}
+.PaypalSeal img{width:85px}
+.admin-content{border-top-left-radius:0;border-top-right-radius:0;border-top-width:0}
+.recurly .plan,.recurly .subplan{overflow:visible}
+.recurly .plan:before,.recurly .plan:after,.recurly .subplan:before,.recurly .subplan:after{display:table;content:" "}
+.recurly .plan:after,.recurly .subplan:after{clear:both}
+.recurly .field.expires .year{float:left;margin-left:5px;width:70px}
+.box{min-height: 209px;}
+.loading{margin-top:150px;text-align:center;min-height:450px}
+.recurly input.invalid[type="text"],.recurly select.invalid{border-color:#b94a48;-webkit-box-shadow:inset 0 1px 1px rgba(0,0,0,0.075);-moz-box-shadow:inset 0 1px 1px rgba(0,0,0,0.075);box-shadow:inset 0 1px 1px rgba(0,0,0,0.075)}
+.recurly input.invalid[type="text"]:focus,.recurly select.invalid:focus{border-color:#953b39;-webkit-box-shadow:inset 0 1px 1px rgba(0,0,0,0.075),0 0 6px #d59392;-moz-box-shadow:inset 0 1px 1px rgba(0,0,0,0.075),0 0 6px #d59392;box-shadow:inset 0 1px 1px rgba(0,0,0,0.075),0 0 6px #d59392}
+.recurly .field.expires .month{width:200px}
+.recurly .field.expires .year{margin-left:10px;width:100px}
+.recurly .accept_tos input[type="checkbox"]{margin:0}
+.recurly .accept_tos label{margin-left:10px}
+.recurly .card{width:36px}
+.recurly .footer{padding-top:0}
+.recurly.submitting .footer{background-position:180px 8px}
+form.recurly{margin-bottom:0}
+.recurly .plan .recurring_cost .cost{line-height:36px}
+.recurly .plan .name,.recurly .subplan .name{line-height:36px}
+.recurly .separator{background:url("recurlyjs/themes/default/images/dash.png") repeat-x scroll 1px bottom rgba(0,0,0,0);height:2px}
+.recurly .due_now_total,.recurly .due_now_subtotal{clear:both;color:#2a3a3c;height:65px;line-height:48px;vertical-align:middle;padding:0 25px;position:relative;left:-5px;display:block}
+.recurly .due_now_total .title,.recurly .due_now_subtotal .title{float:left;font-size:20px;font-weight:bold;position:relative}
+.title .ordertotal{height:35px}
+.title .taxes{color:#666;font-size:13px;font-weight:normal;margin-bottom:5px;line-height:20px}
+.recurly .due_now_total .total_cost,.recurly .due_now_subtotal .subcost{color:#2a3a3c;float:right;font-size:20px;font-weight:bold;letter-spacing:1px;margin:0;position:relative}
+#due_now_total a.expandbutton{position:absolute;right:5px;text-decoration:none;font-size:18px;color:#999}
+.recurly .due_now.subtotal .title,.recurly .due_now_subtotal .title,.recurly .due_now.subtotal .cost,.recurly .due_now_subtotal .subcost{font-size:18px}
+.recurly .due_now{height:50px;line-height:48px}
+.recurly .due_now .title{font-size:20px;font-weight:bold}
+.recurly .due_now .cost{font-size:20px;font-weight:bold}
+.recurly .subplan .name{float:left;min-width:270px;padding-left:20px;padding-right:40px}
+.recurly .subplan .recurring_cost{float:right;text-align:right;padding-right:20px}
+.recurly .plan .name,.recurly .plan .recurring_cost .cost,.recurly .subplan .name,.recurly .subplan .recurring_cost .subcost{font-size:18px;font-weight:bold;line-height:24px}
+.recurly .subplan .name .firstsubtip{font-size:13px;margin-top:6px;margin-left:16px}
+.recurly .subplan .name .othersubtip{font-size:13px;margin-left:16px}
+.recurly .due_now.subtotal.alert,.recurly .due_now_subtotal.alert{background:0;border:0}
+.recurly .coupon{background:0;line-height:34px;height:80px}
+#tollfree_new_plan_payongo_label{line-height:30px}
+#tollfree_new_plan_payongo_label input{margin-top:8px}
+#tollfree_new_plan_monthly_commitment_label{line-height:30px;display:inline-block;float:left}
+#tollfree_new_plan_monthly_commitment_label input{margin-top:8px}
+#tollfree_new_plan_monthly_commitment{margin-top:8px;margin-left:10px;width:120px;display:inline-block}
+#tollfree_new_plan_premium_numbers_list{list-style-type:none;margin:0;padding:0;display:inline-block;margin-left:0}
+#tollfree_new_plan_premium_numbers_list li{display:inline-block;margin-right:20px}
+#cmr_plan_payongo_label{line-height:30px}
+#cmr_plan_payongo_label input{margin-top:8px}
+#cmr_plan_monthly_commitment_label{line-height:30px;display:inline-block;float:left}
+#cmr_plan_monthly_commitment_label input{margin-top:8px}
+#cmr_plan_monthly_commitment{margin-top:8px;margin-left:10px;width:120px;display:inline-block}
+.recurly input[type=text]{height:34px;padding:6px 12px}
+.recurly .field input[type=text],.recurly .field.cvv input[type=text],.recurly .field.last_name input[type=text],.recurly .field.zip input[type=text]{width:100%}
+.recurly .field .placeholder{padding-left:12px}
+.view_field_row{display:inline;float:left;width:100%;margin-bottom:10px}
+.view_field_row .view_title{width:106px;display:inline-block;margin-right:30px;font-size:14px;color:#bfbfbf;line-height:19px;padding-left:0;padding-right:0}
+.view_field_row .view_field{font-size:14px;color:#222;line-height:19px}
+.zbilling .title{margin-bottom:15px}
+.view_field_row .view_field{margin-right:5px}
+.contact_info_fields.view{width:740px}
+.contact_info_fields.view .billing_update_edit,.billing_info .billing_update_edit{float:right}
+.server_errors.section{float:left;margin-left:0}
+.contact_info_fields.view>.edit .busy{display:none}
+.billing_info_fields.edit .busy{display:none}
+.billing_info_fields.edit.submitting .busy{display:inline-block}
+.contact_info_fields.view>.edit.submitting .busy{display:inline-block}
+.billto_contact_info_fields,.soldto_contact_info_fields{padding-right:25px}
+.update_billing_info .edit_btns{margin-top:10px;margin-bottom:10px;padding-left:0}
+.update_billing_info button.save{margin-right:10px}
+.update_billing_info .contact_info{background:0}
+hr.billing-seprate{width:640px;margin-top:0;margin-bottom:10px;color:#e0e2e4}
+.contact_info_fields hr.billing-seprate{margin-top:20px;margin-bottom:20px}
+#pay-method-busy .modal-header{padding-left:20px;padding-top:16px;padding-bottom:10px;font-size:16px;line-height:22px;color:#666;font-weight:600}
+#pay-method-busy .modal-body{padding-top:16px;padding-bottom:5px}
+#pay-method-busy .modal-footer{border-top:0}
+.edit_pay_method_btn{float:right}
+.buy-webinar .buy-first-count,.buy-large .buy-first-count{visibility:hidden}
+.buy-webinar.selected .buy-first-count,.buy-large.selected .buy-first-count{visibility:visible}
+#tollfree_apac_tip{font-size:12px;color:#999;margin:-4px 0 10px}
+#preview_dialog .modal-body{padding-top:20px;padding-left:30px;padding-right:30px}
+#preview_dialog .sub_title{font-weight:600;font-size:15px;color:#333;line-height:23px;margin:0}
+#preview_dialog .separator{border-top:1px solid #d8d8d8;margin-top:16px;margin-bottom:16px}
+#preview_dialog .subscription{border-radius:9px 9px 0 0;text-shadow:0 1px 0 #fff;padding-top:10px;overflow:hidden;background:url("images/dash.png") repeat-x scroll 1px bottom transparent}
+#preview_dialog .plan .recurring_cost .cost,#preview_dialog .subplan .recurring_cost .subcost{font-size:13px;color:#333;line-height:19px}
+#preview_dialog .plan .recurring_cost .interval,#preview_dialog .subplan .recurring_cost .interval{font-size:12px;color:#333;line-height:18px}
+#preview_dialog .total_price{font-weight:600;font-size:18px;color:#999}
+#preview_dialog .plan,#preview_dialog .subplan{overflow:visible}
+#preview_dialog .plan .recurring_cost,#preview_dialog .subplan .recurring_cost,#preview_dialog .price .recurring_cost,#preview_dialog .price .total_price{float:right;text-align:right}
+#preview_dialog .subplan:before,#preview_dialog .subplan:after{display:table;content:" ";clear:both}
+#preview_plan_container .price_content{margin-bottom:30px}
+#preview_plan_container .price_content .price{margin:0 0 12px}
+#preview_dialog .plan .name,#preview_dialog .subplan .name,#preview_dialog .price .name{float:left;min-width:270px}
+#preview_dialog .payment .payment_item{font-size:13px;color:#333;line-height:19px;margin-bottom:10px}
+#preview_dialog .payment .payment_item.name{font-weight:600;margin:10px 0 14px}
+#preview_dialog .payment .payment_item.method .item-name{margin:0 0 4px}
+.labelBlock{display:block}
+#recurly_payment{overflow:hidden}
+.additionalEmail{height:auto!important}
+.additionalEmailTip{display:none;font-size:12px;color:#999}
+@media screen and (max-width :767px){.recurly .field.expires .month,.recurly .field.expires .year{width:100%}
+    .recurly .field.expires .month{margin-bottom:20px}
+}
+.norenew{overflow:hidden;margin-top:15px}
+.norenew label{cursor:pointer}
+.norenew_checkbox{position:absolute;visibility:hidden}
+.norenew_checkbox+label{display:inline-block;float:left;position:relative;width:20px;height:20px;border:1px solid #d9d9d9;-webkit-border-radius:3px;-moz-border-radius:3px;border-radius:3px}
+.norenew .norenew_text{margin-left:10px;line-height:1.1}
+.norenew .norenew_text em{font-size:12px;color:#919191}
+.norenew_checkbox:checked+label{background:#2d8cff;border:1px solid #2d8cff}
+.norenew_checkbox:checked+label:after{content:"";position:absolute;left:3px;bottom:7px;width:12px;height:6px;border:2px solid #fff;border-top-color:transparent;border-right-color:transparent;-ms-transform:rotate(-60deg);-moz-transform:rotate(-60deg);-webkit-transform:rotate(-60deg);transform:rotate(-45deg)}
+#trustwaveSealImage{margin-top:20px;float:right;width:70px}

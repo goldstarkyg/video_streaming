@@ -1,0 +1,182 @@
+#buyitnow_container .basic-plan-type-container{position:relative}
+#buyitnow_container .basic-plan-type{position:absolute;top:40px;left:0}
+#buyitnow_container #subscribe{float:right;margin-top:-70px}
+#buyitnow_container #subscribe .text{padding-bottom:20px}
+#buyitnow_container .plan{margin-bottom:15px}
+#buyitnow_container .plan .subitem{margin-top:15px;padding-left:35px}
+#buyitnow_container .plan .plan-desc{font-size:1.3em}
+#buyitnow_container .plan .users-desc{display:inline-block;vertical-align:middle;margin-left:5px}
+#buyitnow_container .plan .summary{font-weight:bold}
+#buyitnow_container .subplan-check label{font-weight:normal}
+#buyitnow_container .subplan-check label.checked{font-weight:bold}
+#buyitnow_container .checkbox{text-align:left;cursor:pointer}
+#buyitnow_container .help-block{margin-bottom:10px}
+#buyitnow_container .biz_tip_container{background:#dff0d7;border:1px solid #d6eac5;border-radius:3px;margin:0 0 20px}
+#buyitnow_container .biz_tip_words{font-size:13px;color:#3c763d;margin-top:10px;margin-bottom:10px;padding-left:20px}
+#buyitnow_container .price{font-size:20px;color:#333}
+#buyitnow_container .price_radio{margin-top:8px}
+#subplan_large100_container,#subplan_roomconnector_container,#subplan_zr_container,#subplan_tollfree_container,#subplan_webinar_container,#subplan_cmr_container{margin-bottom:30px}
+#subplan_webinar_container{border-bottom:0}
+#subplan_tollfree_container .checkbox-inline{width:140px;margin-right:10px}
+#subplan_tollfree_container .checkbox-inline+.checkbox-inline{margin-left:0;vertical-align:top}
+@media screen and (max-width :767px){#plan_form .row,#password_form .row{margin-left:0;margin-right:0}
+    #buyitnow_container .section-title a,#buyitnow_container .basic-plan-type{position:static}
+    #buyitnow_container .plan .subitem .radio-inline+.radio-inline,#buyitnow_container .plan .subitem .checkbox-inline+.checkbox-inline{margin-left:0;margin-right:10px}
+    #buyitnow_container #subscribe{float:inherit;margin-top:10px;margin-bottom:10px}
+    #buyitnow_container #subscribe .text{padding-bottom:0}
+}
+.yearMonthTable{margin-top:30px;margin-left:-10px}
+.yearMonthTable .tdDiv{width:100px;border-radius:4px;background-color:#fff;border:solid 1px #d9d9d9;padding:1px;margin:10px;cursor:pointer;display:inline-block}
+.yearMonthTable .tdDiv label{cursor:pointer}
+.yearMonthTable .tdDiv.selected,.yearMonthTable .tdDiv.selected label{cursor:default}
+.tdDivAddition.selected,.tdDiv.selected,.tdDivAdditionCmr.selected{border-radius:4px;border:solid 2px #ff7800!important;padding:0;background-color:rgba(255,120,0,0.1)!important}
+.tdDiv div{text-align:center;margin-top:10px}
+.monthly{font-size:18px;color:#666;padding-top:20px}
+.rateMonthly{font-size:36px;line-height:1.0;color:#4a4a4a}
+.unitMonthly{font-size:12px;color:#4a4a4a}
+.describleMonthly{font-size:12px;color:#919191}
+.annual{font-size:18px;color:#666;padding-top:20px}
+.rateAnnual{font-size:36px;line-height:1.0;color:#4a4a4a}
+.unitAnnual{font-size:12px;color:#4a4a4a}
+.describleAnnual{font-size:12px;color:#919191}
+.plan-order-title{font-size:26px;font-weight:300;color:#333;line-height:32px;padding:9px 20px;background:#f4f4f4 none;border-radius:3px}
+.form-buynow .plan-order-title{margin:0 0 20px}
+.plan-order-title .title-sub{font-size:14px;float:right;margin-top:2px}
+.circle{width:70px;height:70px;padding-top:13px;text-align:center;background:#4bc800 none;border-radius:50%;position:absolute;left:100%;top:-43px;margin-left:-53px}
+.circle span,.circle label{display:block;text-align:center;color:#FFF;font-size:11px;margin:0}
+.circle span{font-size:18px}
+.annualDiv{position:relative;text-align:center}
+.yearMonthTable .priceDivAnnual .selectLable{color:#ff7800}
+.yearMonthTableAddition .tdDivAddition{width:190px;border-radius:4px;background-color:#fff;border:solid 1px #d9d9d9;margin-right:30px;padding:13px 20px;cursor:pointer;display:inline-block;vertical-align:top}
+.yearMonthTableAddition .tdDivSelectAddition,.yearMonthTableAddition .tdDivAddition.selected{width:190px;border-radius:4px;background-color:rgba(255,120,0,0.1);border:solid 2px #ff7800;padding:12px 19px}
+.monthlyAddition{font-size:13px;color:#666;font-weight:300}
+.rateMonthlyAddition{font-size:18px;color:#4a4a4a}
+.unitMonthlyAddition{font-size:12px;color:#4a4a4a}
+.describleMonthlyAddition{font-size:12px;color:#919191;font-style:italic;height:36px;line-height:18px}
+.annualAddition{font-size:13px;color:#666;font-weight:300}
+.rateAnnualAddition{font-size:18px;color:#4a4a4a}
+.unitAnnualAddition{font-size:12px;color:#4a4a4a}
+.describleAnnualAddition{font-size:12px;color:#919191;font-style:italic;height:36px;line-height:18px}
+.selectedLabel{color:#ff7800!important}
+.additionTitle{padding:15px 0;font-size:16px;font-weight:300;cursor:pointer}
+.additionPanel{padding-top:10px;border-top:0;border-bottom-left-radius:3px;border-bottom-right-radius:3px}
+.additionPanel .extLink{margin:15px 0}
+.additionDiv hr{margin:0}
+.additionDiv .expandbutton{color:#3a3c3f;cursor:pointer;width:0;border-right:4px solid transparent;border-left:4px solid transparent}
+.expandButtonRight{float:right;padding:7px}
+.expandButtonTop{border-top:4px solid}
+.expandButtonButtom{border-bottom:4px solid}
+.error{color:#ff1e5a}
+.selected .rateMonthly,.selected .rateAnnual,.selected .unitAnnual,.selected .unitMonthly{color:#ff7800}
+.describleAnnual,.describleMonthly{margin:0 0 30px;font-style:italic}
+.priceDivMonthlyAddition label{margin:0 0 3px;cursor:pointer}
+.selected .priceDivMonthlyAddition label{color:#ff7800}
+.tdDivAdditionCmr{border-radius:4px;background-color:#fff;border:solid 1px #d9d9d9;padding:13px 20px;margin:5px;width:30%;display:inline-block;vertical-align:top;cursor:pointer}
+.tdDivAdditionCmr .priceDivMonthlyAddition{white-space:nowrap}
+.tdDivAdditionCmr.selected{border-width:2px;padding:12px 19px}
+.tdDivAdditionCmr .describleMonthlyAddition{margin-top:6px}
+.majorPlanSelect{position:absolute;right:0;top:9px}
+.majorSwitch{margin-bottom:20px}
+#plan_submit{width:160px;border-radius:3px}
+.planAttr,.planWrap{overflow:hidden;clear:both;font-size:13px}
+.planAttr,.planAttr .planTitle{font-size:12px;color:#999}
+.planTitle{float:left;margin:0}
+.planVal{float:right}
+.planVal.period{color:#333}
+.roomConnector,.audioConf{max-width:160px}
+a.planVal{text-decoration:underline;color:#999;font-size:12px}
+#majorPlanSelect .caret{margin-left:10px}
+.ui-select-bootstrap .ui-select-choices-row>a{padding:5px 10px}
+.form-buynow .form-control{height:50px}
+.form-buynow .form-group{margin:0 0 20px}
+.form-buynow .service-term{margin-top:30px}
+.convertWarn{padding:0 10px}
+.convertWarn h4{font-size:14px;font-weight:600}
+.convertWarn .sub{font-size:13px;margin-top:10px 0 0}
+.leftController{width:530px;display:inline-block;position:relative}
+.crLabelTip{color:#666;font-size:13px;margin:0 0 10px}
+i.glyphicon-question-sign{opacity:1;filter:alpha(opacity=100);color:#aaa}
+.help:hover i.glyphicon-question-sign,.help.active i.glyphicon-question-sign{color:#666}
+#alert-dialog_pro2biz .modal-body{padding:0;border-radius:4px}
+#btn-request_pro2biz{height:46px;min-width:220px;padding-left:20px;padding-right:20px;font-size:16px;font-weight:600;line-height:34px;border-radius:3px;background-color:#ff7800;border-color:#ff7800}
+#btn-request_pro2biz_cancel{color:#ff7800;background-color:#fff;border:1px #ff7800 solid;min-width:220px;height:46px;padding-right:20px;font-size:16px;font-weight:600;line-height:33px;border-radius:3px;margin:0 auto}
+#alert-dialog_pro2biz{width:780px}
+#alert-dialog_pro2biz .dialogTitle{font-size:26px;color:#333;font-weight:300;text-align:center;margin-top:50px}
+#alert-dialog_pro2biz .dialogTip{margin:20px 60px 30px;font-size:14px;color:#666;text-align:center;line-height:24px}
+#alert-dialog_pro2biz .firstBtn{text-align:center;margin-bottom:20px}
+#alert-dialog_pro2biz .secondBtn{text-align:center;margin-bottom:30px}
+#alert-dialog_pro2biz .thirdBtn{text-align:center;margin-bottom:50px;font-weight:600;font-size:14px;color:#2d8cff}
+.firstStepContinueBtn{text-align:center;margin-top:30px}
+.angularSelect{width:340px!important}
+.angularSelectWebinar{width:390px!important}
+.dropdownTitle{color:#333}
+.dropdownTitle:hover{color:#333}
+.goProPosition{position:absolute;top:0;right:10px}
+.webinarInput{width:80px;display:inline-block}
+.angularSelect .ui-select-choices-row-inner .ng-binding{float:left}
+.titlebarHover{position:relative;display:inline-block}
+.titlebarTip{position:absolute;left:-268px;bottom:30px;width:600px;border-radius:3px;background-color:#fff;box-shadow:0 2px 4px 0 rgba(138,138,138,0.5);padding:20px;z-index:1050}
+.titlebarTip:after{position:absolute;content:"";display:block;bottom:-20px;left:50%;margin-left:-8px;width:0;height:0;overflow:hidden;border-width:10px;border-style:solid;border-color:#666 transparent transparent transparent}
+.titlebar{display:inline;color:#333}
+.titlebarTip ul{font-size:14px}
+.titlebarTip ul li{margin-bottom:15px}
+.titleTip{margin:20px 0 20px 42px}
+.learMore{font-size:14px;margin-left:42px}
+.radio-inline+.radio-inline{margin-top:0;margin-left:0;margin-right:10px}
+.hideLabel{display:none}
+.page-header{height:50px}
+html:lang(es-ES) .angularSelectWebinar{width:431px!important}
+html:lang(es-ES) .angularSelect{width:431px!important}
+.largeClass{margin-bottom:20px}
+#alert-dialog_confirm_detail{width:600px}
+#alert-dialog_confirm_detail .dialogTitle{font-size:26px;color:#333;font-weight:300;margin-top:20px;margin-bottom:20px}
+#alert-dialog_confirm_detail .dialogTip{font-size:14px;line-height:1.71;color:#333;font-size:14px;margin-bottom:6px}
+#alert-dialog_confirm_detail .firstBtn{text-align:center;display:inline-block;margin-bottom:20px}
+#alert-dialog_confirm_detail .secondBtn{text-align:center;margin-bottom:30px;display:inline-block}
+div#alert-dialog_confirm_detail ul li{line-height:30px}
+#btn-request_confirm_detail{height:46px;min-width:160px;padding-left:20px;padding-right:20px;font-size:16px;font-weight:600;line-height:34px;border-radius:3px;background-color:#ff7800;border-color:#ff7800}
+#btn-request_detail_cancel{color:#ff7800;background-color:#fff;border:1px #ff7800 solid;min-width:160px;height:46px;padding-right:20px;font-size:16px;font-weight:600;line-height:33px;border-radius:3px;margin:0 auto;margin-right:30px}
+@media screen and (max-width :767px){.yearMonthTable .tdDiv{width:43%;margin:10px 0 10px 10px;vertical-align:top}
+    .leftController{width:100%}
+    .rightCart{width:100%}
+    .yearMonthTableAddition .tdDivAddition{width:47%;margin-right:5px;padding:9px;vertical-align:top}
+    .yearMonthTableAddition .tdDivSelectAddition,.yearMonthTableAddition .tdDivAddition.selected{width:47%;margin-right:5px;padding:8px;vertical-align:top}
+    #content_container{width:100%;padding:0 13px}
+    #alert-dialog_pro2biz{width:100%}
+    .tdDivAdditionCmr{width:45%}
+    .firstStepContinueBtn{text-align:center;margin-top:30px;margin-bottom:30px}
+    .firstStepContinueBtn .btn{width:100%}
+    .plan-order-title{font-size:20px;padding:9px 8px}
+    .plan-order-title .title-sub{font-size:13px}
+    .describleAnnual,.describleMonthly{line-height:14px;height:28px}
+    .rateMonthly{font-size:23px}
+    .describleMonthlyAddition{line-height:18px;height:36px}
+    .dropdownTitle{font-size:18px;color:#333}
+    #buyitnow_container .biz_tip_words{font-size:12px;padding:0 15px}
+    #subplan_zr_hosts_container{padding-left:0}
+    #subplan_cmr_container .describleMonthlyAddition{white-space:normal}
+    .angularSelect{width:302px!important}
+    .angularSelectWebinar{width:302px!important}
+    .subplan_webinar_hosts_container{width:100%!important;padding-left:0}
+    .tollfreePayAsYouGoH{height:74px}
+    #buyitnow_container .checkbox{width:94%}
+    #subplan_tollfree_container .row .col-md-12,#subplan_tollfree_container .row .col-sm-12{padding-left:0}
+    #subplan_tollfree_container .row .subitem,#subplan_tollfree_container .row .subitem{padding-left:15px}
+    .tdDivAdditionCmr{padding:12px 19px;margin:5px 5px 5px 0}
+    .tdDivAdditionCmr.selected{border-width:2px;padding:11px 18px}
+    #subplan_tollfree_container .checkbox-inline{width:160px;margin-right:10px}
+    .goProPosition{position:static}
+    .webinarInput{width:68px}
+    #plan_submit{width:100%}
+    .telephone table{margin-left:20%!important}
+    div.AuthorizeNetSeal{right:auto;left:50%;margin-left:-45px!important;bottom:20px}
+    .rateAnnual{font-size:23px}
+}
+@media screen and (min-width :370px) and (max-width :420px){.angularSelectWebinar{width:342px!important}
+}
+@media screen and (min-width :768px) and (max-width :1024px){.yearMonthTable .tdDiv{width:43%;margin:10px 0 10px 10px;vertical-align:top}
+    .leftController{width:60%}
+    .container{width:100%}
+    body.ipad #header_container{position:fixed}
+    body.ipad #content_container{padding-top:64px!important}
+}

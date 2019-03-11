@@ -1,0 +1,21 @@
+---
+repo:
+  aflix-project:
+    - branch: dev
+      repoHome: /var/repo/aflix-project/dev/
+      syncSrc: /var/repo/aflix-project/dev/www/
+      syncDst: /var/www/vhosts/aflix.tv/
+      ignoreFile: ignores/aflix.tv.ignore.conf
+      afterPull: |
+          chown -R www-data:www-data /var/www/vhosts/aflix.tv
+          /usr/sbin/service php7.0-fpm restart
+
+    - branch: master
+      repoHome: /var/repo/aflix-project/master/
+      syncSrc: /var/repo/aflix-project/master/www/
+      syncDst: /var/www/vhosts/aflix.tv/
+      ignoreFile: ignores/aflix.tv.ignore.conf
+      afterPull: |
+          chown -R www-data:www-data /var/www/vhosts/aflix.tv
+          /usr/sbin/service php5-fpm restart
+
